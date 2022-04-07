@@ -1,14 +1,14 @@
-#CISC 467 - :notebook_with_decorative_cover: Professor Rating System :books:
+# CISC 467 - :notebook_with_decorative_cover: Professor Rating System :books:
 This is a project by Jake Ahearne, Aubrey McLeod, and Renee Tibando.
 
-##:fire:about:fire:
+## :fire:about:fire:
 This project uses a fuzzy linguistic ruleset to produce a defuzzified rating for a given professor (1-10). 
 The user is asked to rate a professor using linguistic descriptors, and these
 rating are translated into production rules based on our own research and data collection.
 
 We employ a backend database to track and aggregate overall reviews for professors.
 
-##:bar_chart: our data :chart_with_upwards_trend:
+## :bar_chart: our data :chart_with_upwards_trend:
 Our data was collected using an online survey which was distributed over multiple channels.
 
 The survey was split into two sections. In the first section respondents where asked to rank attributes according to how
@@ -48,9 +48,9 @@ contributed positively towards a professor being good, contributed neutrally, or
 
 For more information, see the `dataset/data.md`; raw results are stored in `dataset/raw.csv`
 
-##:factory: our production rules :factory:
+## :factory: our production rules :factory:
 *insert relevant test here...*
-##setup
+## setup
 First we need to install the requirements with: `pip install -r requirements.txt`
 
 Then set up the MySQL Database, using:
